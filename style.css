@@ -282,10 +282,11 @@ section {
 }
 
 .Work h2 {
-    text-align: center;
-    color: #444;
+    margin: auto;
     font-size: 30px;
     font-weight: 900;
+    color: #444;
+    border-bottom: 3px solid teal;
 }
 
 .work p {
