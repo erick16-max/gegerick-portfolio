@@ -6,9 +6,11 @@
     margin: 0;
 }
 
-body {
+html,body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f7f7;
+    max-width: 100%;
+    overflow-x: hidden;
     
 }
 ul {
@@ -553,7 +555,13 @@ section {
 
 
 /*Responsive Media queries*/
+
 @media only screen and (max-width:1024px) {
+    html,body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .professional-summary {
         height: fit-content;
         text-align: center;
@@ -576,6 +584,10 @@ section {
 }
 
 @media only screen and (max-width:768px) {
+    html,body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .navbar {
         max-height: 600px;
     }
@@ -654,6 +666,10 @@ section {
 }
 
 @media only screen and (max-width:668px) {
+        html,body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
         .topnav {
             flex-wrap: wrap;
             max-height: 400px;
@@ -670,6 +686,10 @@ section {
 }
 
 @media only screen and (max-width:400px) {
+    html,body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .email {
         display: none;
     }
@@ -677,10 +697,17 @@ section {
     header,section {
         width: 410px;
     }
+    .services .card {
+        width: 90%;
+    } 
    
 }
 
 @media only screen and (max-width:380px) {
+    html,body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .professional-summary {
         height: fit-content;
         text-align: center;
