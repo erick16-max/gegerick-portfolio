@@ -11,6 +11,7 @@ html,body {
     background-color: #f7f7f7;
     max-width: 100%;
     overflow-x: hidden;
+  
     
 }
 ul {
@@ -458,7 +459,7 @@ section {
 .info .info-card {
     display: flex;
     background-color: #000;
-    width: 500px;
+    width: 400px;
     padding: 10px;
     flex-wrap: wrap;
     
@@ -557,10 +558,7 @@ section {
 /*Responsive Media queries*/
 
 @media only screen and (max-width:1024px) {
-    html,body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
+   
 
     .professional-summary {
         height: fit-content;
@@ -584,10 +582,7 @@ section {
 }
 
 @media only screen and (max-width:768px) {
-    html,body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
+   
     .navbar {
         max-height: 600px;
     }
@@ -666,10 +661,11 @@ section {
 }
 
 @media only screen and (max-width:668px) {
-        html,body {
+        html, body {
             max-width: 100%;
             overflow-x: hidden;
         }
+       
         .topnav {
             flex-wrap: wrap;
             max-height: 400px;
@@ -685,8 +681,8 @@ section {
         }
 }
 
-@media only screen and (max-width:400px) {
-    html,body {
+@media only screen and (max-width:432px) {
+    html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
@@ -694,46 +690,15 @@ section {
         display: none;
     }
 
-    header,section {
-        width: 410px;
-    }
     .services .card {
+        width: 80%;
+    }
+
+    .contact-me .info-card {
         width: 90%;
-    } 
-   
+    }
 }
 
-@media only screen and (max-width:380px) {
-    html,body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-    .professional-summary {
-        height: fit-content;
-        text-align: center;
-    }
-   
-   header {
-       width: 420px;
-   }
-   section {
-       width: 420px;
-       display: block;
-       overflow-y: hidden;
-   }
-    .email {
-        display: none;
-    }
-.about-me img {
-   margin-left: 10px;
-}
-    
-  .services .card {
-      width: 90%;
-  }  
-}
-
-  
 
 
 
