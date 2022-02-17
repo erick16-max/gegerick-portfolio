@@ -691,13 +691,21 @@ section {
     }
 
     .services .card {
-        width: 80%;
+        width: 90%;
     }
 
     .contact-me .info-card {
         width: 90%;
     }
+
+    .about-me img {
+        max-width: 80%;
+        flex-wrap: wrap;
+    }
+    
 }
+
+
 
 
 
