@@ -516,6 +516,9 @@ section {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 30px;
     color: #f4f4f4;
@@ -666,6 +669,7 @@ section {
         margin: 15px;
         
     }
+    
 }
 
 @media only screen and (max-width:668px) {
@@ -686,6 +690,13 @@ section {
         .professional-summary {
             text-align: center;
             height: fit-content;
+        }
+        .footer {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .footer span {
+            display: none;
         }
 }
 
