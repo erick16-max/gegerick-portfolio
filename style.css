@@ -154,6 +154,10 @@ section {
     left: 300;
     
 }
+.stack {
+    color: rgb(248, 190, 83);
+    
+}
 
 .about-me .text h2 {
     color: #444;
@@ -696,6 +700,9 @@ section {
             flex-direction: column-reverse;
         }
         .footer span {
+            display: none;
+        }
+        .about-me img {
             display: none;
         }
 }
