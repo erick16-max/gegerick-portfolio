@@ -19,3 +19,19 @@ btnScrollToP.addEventListener('click', function (){
     behavior: "smooth"
   });
 });
+
+//Preloader
+ var preloader = document.getElementById("preloader");
+ var postionSpinner = document.getElementById("position-spinner");
+ var spinner = document.getElementById("spinner");
+
+  window.addEventListener('load', function(){
+
+    preloader.classList.remove('preloader')
+    postionSpinner.classList.remove('position-spinner')
+    spinner.classList.remove('spinner')
+   })
+
+ 
+ 
+
