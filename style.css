@@ -49,7 +49,7 @@ header {
 }
 
  .email  , .number {
-    color: rgb(219, 215, 215);
+    color: #f4f4f4;
     margin-left: 10px;
     margin-top: 5px;
     font-size: 15px;
