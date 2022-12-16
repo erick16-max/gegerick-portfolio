@@ -125,8 +125,8 @@ header {
 .sticky {
     position: fixed;
     top: 0;
-    margin: 0px 2%;
-    width: 96%;
+    margin: 0px;
+    width: 100%;
     background-color: #040224;
   }
  
