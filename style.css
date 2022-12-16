@@ -176,6 +176,9 @@ header {
 .navbar-toggle {
     display: none;
 }
+.inactive {
+    display: none;
+}
 
 .navbar-links:hover {
     background-color: rgb(3, 2, 51);

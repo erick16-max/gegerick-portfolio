@@ -1,9 +1,20 @@
 const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
 const navbarLinks = document.getElementsByClassName('navbar-links');
 
+
+
 toggleButton.addEventListener('click' , function () {
     for (let i=0; i< navbarLinks.length ; i++) {
         navbarLinks[i].classList.toggle('active');
+
+        navbarLinks[i].addEventListener('click' , function () {
+          for (let i=0; i< navbarLinks.length ; i++) {
+            navbarLinks[i].classList.remove('active');
+            console.log(navbarLinks[i]);
+            
+          }
+      });  
+        
     }
 });  
 
