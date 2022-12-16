@@ -7,6 +7,36 @@
     <title> gegerick | portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f68a008ec3.js" crossorigin="anonymous"></script>
+    <style>
+	
+		.card-projects {
+            margin-top: 20px;
+            margin-bottom: 20px;
+			margin-right: 10px;
+			margin-left: 10px;
+			width: 400px;
+			box-shadow: 0 15px 25px rgba(70, 69, 69, 0.2);
+			border-radius: 5px;
+			backdrop-filter: blur(14px);
+			background-color: transparent;
+			padding: 10px;
+			text-align: center;
+		}
+
+		
+       .stack {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 4px 9px;
+            
+        }
+        .stack h3 {
+            padding: 2px 5px;
+        }
+        
+	</style>
 </head>
 <body>
      <!-- Preloader -->
@@ -60,25 +90,25 @@
             <div class="text">
                 <h2>Hello <i class="fas fa-smile-beam"></i></h2>
                 <h1>I AM ERICK GEGE</h1>
-                <p>Software Developer <br> & Tech Enthusiast <i class="fas fa-hand-holding-heart"></i></p>
-                <p class="stack" style="color: rgb(253, 172, 21); margin-top: 5px;">
+                <p>Software Developer & Tech Enthusiast <i class="fas fa-hand-holding-heart"></i></p>
+                <p style=" margin-top: 5px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
                     Python | Django | JavaScript | React
                 </p>
                 <button class="hire"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=erickgege16@gmail.com&body=my-text" target="_blank"><i class="fas fa-comment"></i> Hire Me</a></button>
                 <button class="resume"><a href="https://drive.google.com/file/d/1Osd8swT5Fxcgdw3u9uPBp2q9mvpckzTi/view?usp=sharing" target="_blank"><i class="fas fa-eye"></i> Resume</a></button>
             </div>
-                <img src="./img/Coconut_Icon/SVG/Coconut_Icon.svg" alt="">
+                <img src="./img/undraw_lost_online_re_upmy.svg" alt="">
             
         </div>
 
         <!--Professional summary-->
         <div id="about" class="professional-summary">
            <h2>Professional Summary</h2>
-           <p>  Insightful and determined web application developer with the ability to create clean codes,
-                debug, test and deploy applications. Proficient in updated user experience and user interaction
-                (UI) designs for web applications. Works well in a team environment and exercises problem solving skills. 
-                Possesses programming skills and experience in JavaScript (Vanilla, Jquery, Ajax, React Js), Python (Django) and vanilla PHP programming languages. 
-                Thrives in fast-paced and high-pressured work environments.
+           <p>  
+            Seasoned Software Developer proficient in building and optimizing web applications
+            Technology enthusiast bringing consistent record of producing quality code,
+            application and tech services. Contributes expertise to all stages of software
+            development lifecycle
             </p>
             <div class="skill-ability">
                 <div class="skills">
@@ -112,27 +142,66 @@
         <div id="work" class="work">
             <h2>Projects</h2>
             <div class="projects">
-                <div class="work-card">
-                    <img src="/img/pos.jpg" alt="" srcset="">
-                    <a  href="https://github.com/erick16-max/Sales-Inventory-System" target="_blank"><i class="fas fa-calendar-day"></i>  <span>Sales Inventory System</span></a>
-                    <a href="https://github.com/erick16-max/Sales-Inventory-System" target="_blank"><i class="fab fa-github"></i> <span>GitHub Code</span></a>
-                </div>
-
-                <div class="work-card">
-                    <img src="/img/api1.jpg" alt="" srcset="">
-                    <a href="https://github.com/erick16-max/WeatherApp" target="_blank"><i class="fas fa-calendar-day"></i>  <span>Weather App</span></a>
-                    <a href="https://github.com/erick16-max/WeatherApp" target="_blank"><i class="fab fa-github"></i> <span>GitHub Code</span></a>
-                </div>
-
-                <div class="work-card">
-                    <img src="/img/social.jpg" alt="" srcset="">
-                    <a href="https://github.com/erick16-max/Mingler" target="_blank"><i class="fas fa-calendar-day"></i>  <span>Mingler Social App</span></a>
-                    <a href="https://github.com/erick16-max/Mingler" target="_blank"><i class="fab fa-github"></i> <span>GitHub Code</span></a>
-                </div>
                
+                <div class="card-projects">
+                    <img src="./img/undraw_voting_nvu7.svg" alt="image" height="120" />
+                    <h1>Paza Online Forum</h1>
+                    <p>
+                        Forum commenting, poll voting and 
+                        with admin dashboard to analyze results
+                    </p>
+                    <div class="stack">
+                        <h3><i style="color: #F0DB4F;" class="fab fa-js"></i></h3>
+                        <h3><i style="color: #4584b6;" class="fab fa-python"></i></h3>
+                        <h3><img src="./img/django-logo.png" alt="" height="20" ></h3>
+                        <h3><i style="color: #61DBFB;" class="fab fa-react"></i></h3>
+                    </div>
+                    <h3>
+                        <button style="background-color: teal; padding: 7px 15px; color: #b0afb3; border-radius: 6px;"
+                         class="btn btn-square btn-sm btn-filled-blue">
+                        <a href="https://pazafronted.netlify.app/" target="_blank">Link</a>
+                        </button>
+                    </h3>
+                </div>
 
-               
-                
+                <div class="card-projects">
+                    <img src="./img/undraw_ice_cream_s-2-rh.svg" alt="image" height="120" />
+                    <h1>Chakula-Conner</h1>
+                    <p>Search meals, view recipe and save favorites meals' recipes</p>
+                    <div class="stack">
+                        <h3><i style="color: #F0DB4F;" class="fab fa-js"></i></h3>
+                        <h3><i style="color: #61DBFB;" class="fab fa-react"></i></h3>
+                    </div>
+                    <h3>
+                        <button style="background-color: teal; padding: 7px 15px; color: #b0afb3; border-radius: 6px;"
+                         class="btn btn-square btn-sm btn-filled-blue">
+                        <a href="https://github.com/erick16-max/Chakula-Corner" target="_blank">Link</a>
+                        </button>
+                    </h3>
+                </div>
+
+                <div class="card-projects">
+                    <img src="./img/undraw_web_shopping_re_owap.svg" alt="image" height="120" />
+                    <h1>Sales Inventory System</h1>
+                    <p>
+                        Tracking of sales Transactions, generation of reports and calculating profits.
+                    </p>
+                    <div class="stack">
+                        <h3><i style="color: #8993be;" class="fab fa-php"></i></h3>
+                        <h3><i style="color: #563d7c;" class="fab fa-bootstrap"></i></h3>
+                        <h3><i style="color: #F0DB4F;" class="fab fa-js"></i></h3>
+                        
+                    
+                    </div>
+                    <h3>
+                        <button style="background-color: teal; padding: 7px 15px; color: #b0afb3; border-radius: 6px;"
+                         class="btn btn-square btn-sm btn-filled-blue">
+                        <a href="https://github.com/erick16-max/Sales-Inventory-System" target="_blank">Link</a>
+                        </button>
+                    </h3>
+                   
+                </div>
+         
             </div>
         </div>
 
@@ -141,38 +210,33 @@
             <h2>Services</h2>
             <div class="skills">
                 <div class="card">
-                    <h3>Portfolio & Blogs</h3>
+                    <h3>Web App Dev</h3>
                     <img src="./img/Laptop_Icon/SVG/Laptop_Icon.svg" alt="">
                     
                           <p>
-                              You need to advertise and showcase your skills and work to the
-                              world's organizations to consider you for employment,  or even 
-                              your personal blog showcasing your exciting life adventures and hobbies then
-                              i can tailor you an eye catching portfolio or blog for your need.
+                              Developing highly optimized and dynamic web applications and systems tailored
+                              according to the user specifications with attractive user interface designs
                             </p>
                         
                     </div>
                     
                     <div class="card">
-                        <h3>Inventory, POS & Web App<small>s</small> </h3>
+                        <h3>Web Scrapping and Automation</h3>
                         <img src="./img/Boarding_Pass_Icon/SVG/Boarding_Pass_Icon.svg" alt="" srcset="">
                         
                             <p>
-                                Point of Sale (POS) and sales inventory systems to manage your stock, track transactions and 
-                                generate reports.Organization management systems to store
-                                staff & customer details and track activities' information, client appointments and an internal
-                                notice board. 
+                                Scrapping various websites to automate favorite and mostly used services on 
+                                such websites or even get useful data required by the client.  
                                 
                             </p>
                         </div>
                         
                         <div class="card">
-                            <h3>Tech Services & Networking</h3>
+                            <h3>Deploying, managing Web Apps</h3>
                             <img src="./img/Coffee_Icon/SVG/Coffee_Icon.svg" alt="" srcset="">
                         <p>
-                            General computer maintainance, hardware / software repair and windows & third party software installation.
-                            Network topology design, IPv4 configuration on a network, Routing protocols and basic router and 
-                            layer two and three configuration.
+                           Continous deployment and Continous Development (CI/CD) of web apps,
+                           managing and updating of the websites occasionally. 
                         </p>
                             
                             
@@ -187,7 +251,7 @@
             <div class="info">
                 <div class="info-card">
                     <div class="sub">
-                        <i class="fas fa-location-arrow fa-2x"></i>
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
                     </div>
                     <div class="sub-card">
                     <h3>Address</h3>
@@ -234,7 +298,7 @@
             </div>
 
             <footer class="footer">
-               <div> Copyright &copy; 2022 </div>
+               <div> Copyright &copy; <span id="current-year"></span> </div>
                <span style="margin:0px 4px;"> | </span>
                <div> Designed with  <i class="fas fa-heart"></i>  by <a href="https://gegerick.netlify.app/">gegerick.</a> </div>
             </footer>

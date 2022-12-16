@@ -32,6 +32,11 @@ btnScrollToP.addEventListener('click', function (){
     spinner.classList.remove('spinner')
    })
 
+   //current year
+   const d = new Date();
+  let year = d.getFullYear();
+  document.getElementById("current-year").innerHTML = year;
+
  
  
 
