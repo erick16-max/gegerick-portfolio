@@ -9,16 +9,16 @@ toggleButton.addEventListener('click' , function () {
 
 
 //btn scroll to the top
-const btnScrollToP = document.querySelector('#btn-top');
+// const btnScrollToP = document.querySelector('#btn-top');
 
-btnScrollToP.addEventListener('click', function (){
+// btnScrollToP.addEventListener('click', function (){
   
-  window.scrollTo({
-    top:0,
-    left:0,
-    behavior: "smooth"
-  });
-});
+//   window.scrollTo({
+//     top:0,
+//     left:0,
+//     behavior: "smooth"
+//   });
+// });
 
 //Preloader
  var preloader = document.getElementById("preloader");
